@@ -29,7 +29,10 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://study-notion-v2.vercel.app'],
+    origin: [
+      'http://localhost:3000',
+      'https://paathshala-v2-frontend.vercel.app',
+    ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
   })
